@@ -151,6 +151,19 @@ void telaVitoria(int passos, int pontos)
 
     printf(GREEN);
     printf("\n\n");
+
+    printf(
+    "        ___________\n"
+    "       '._==_==_=_.'\n"
+    "       .-\\:      /-.\n"
+    "      | (|:.     |) |\n"
+    "       '-|:.     |-'\n"
+    "         \\::.    /\n"
+    "          '::. .'\n"
+    "            ) (\n"
+    "          _.' '._\n"
+    "         `\"\"\"\"\"\"\"`\n"
+    );
     printf("########################################\n");
     printf("#                                      #\n");
     printf("#            VOCE VENCEU !!!           #\n");
@@ -171,6 +184,29 @@ void telaDerrota()
 
     printf(RED);
     printf("\n\n");
+    printf("     .... NO! ...                  ... MNO! ...\n");
+    printf("   ..... MNO!! ...................... MNNOO! ...\n");
+    printf(" ..... MMNO! ......................... MNNOO!! .\n");
+    printf(".... MNOONNOO!   MMMMMMMMMMPPPOII!   MNNO!!!! .\n");
+    printf(" ... !O! NNO! MMMMMMMMMMMMMPPPOOOII!! NO! ....\n");
+    printf("    ...... ! MMMMMMMMMMMMMPPPPOOOOIII! ! ...\n");
+    printf("   ........ MMMMMMMMMMMMPPPPPOOOOOOII!! .....\n");
+    printf("   ........ MMMMMOOOOOOPPPPPPPPOOOOMII! ...\n");
+    printf("    ....... MMMMM..    OPPMMP    .,OMI! ....\n");
+    printf("     ...... MMMM::   o.,OPMP,.o   ::I!! ...\n");
+    printf("         .... NNM:::.,,OOPM!P,.::::!! ....\n");
+    printf("          .. MMNNNNNOOOOPMO!!IIPPO!!O! .....\n");
+    printf("         ... MMMMMNNNNOO:!!:!!IPPPPOO! ....\n");
+    printf("           .. MMMMMNNOOMMNNIIIPPPOO!! ......\n");
+    printf("          ...... MMMONNMMNNNIIIOO!..........\n");
+    printf("       ....... MN MOMMMNNNIIIIIO! OO ..........\n");
+    printf("    ......... MNO! IiiiiiiiiiiiI OOOO ...........\n");
+    printf("  ...... NNN.MNO! . O!!!!!!!!!O . OONO NO! ........\n");
+    printf("   .... MNNNNNO! ...OOOOOOOOOOO .  MMNNON!........\n");
+    printf("   ...... MNNNNO! .. PPPPPPPPP .. MMNON!........\n");
+    printf("      ...... OO! ................. ON! .......\n");
+    printf("         ................................\n");
+    printf("\n");
     printf("########################################\n");
     printf("#                                      #\n");
     printf("#              VOCE MORREU             #\n");
