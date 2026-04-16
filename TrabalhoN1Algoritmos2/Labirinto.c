@@ -11,9 +11,14 @@ Condicionais para validar os movimentos e impedir atravessar paredes.
 Leitura de teclado com scanf para capturar as direções.
 Verificação de vitória quando o jogador chega na saída.
 
+OBS: A linguagem C padrão ANSI não possui suporte nativo para controle
+de som (frequência/duração). Pesquisei e vi que daria pra usar uma biblioteca do Windows
+que daria mais controle e sons diferentes, mas daí deixaria de ser padrão ANSI... Foi utilizado o caractere "\a" 
+para simular efeitos sonoros, podendo variar conforme o terminal. testei no online gdb por exemplo e lá só tem o beep simples
+
 Regras:
 @ - posição atual do jogador.
-. - caminho livre.
+0 - caminho livre.
 X - parede (não pode atravessar).
 ! - Bomba (tira muitos pontos)
 O - saída (objetivo do jogo).
@@ -65,16 +70,42 @@ void somParede()
     beep();
     delay();
     beep();
+    beep();
+    beep();
+    beep();
+    delay();
+    beep();
 }
 
 void musicaVitoria()
 {
     int i;
 
+    // repete 3 vezes o ritmo
     for(i=0;i<3;i++)
     {
         beep();
+        beep();
         delay();
+        beep();
+        beep();
+        beep();
+        delay();
+        beep();
+        delay();
+        beep();
+        beep();
+        beep();
+        delay();
+        beep();
+        beep();
+        delay();
+        beep();
+        delay();
+        beep();
+        beep();
+        beep();
+        beep();
     }
 
     delay();
@@ -95,12 +126,21 @@ void musicaMorte()
     delay();
 
     beep();
-    delay();
+    beep();
+    beep();
+    beep();
+    beep();
+    beep();
+    beep();
+    beep();
+    beep();
+    beep();
 
     beep();
     delay();
 
     beep();
+    delay();
 }
 
 // tela da vitória mostrando os passos, pontos e um banner de vitoria
