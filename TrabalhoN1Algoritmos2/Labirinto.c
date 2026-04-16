@@ -1,11 +1,11 @@
-// Desenvolvido por Alessandro João Brassanini
+// Desenvolvido originalmente por Alessandro João Brassanini
 // Data: 19 de Abril de 2022
-
+//---------------------//------------------------//-----------------//
 // Alterado/Melhorado por Gabriel Couto Ricardo
-// Data: 10 de Abril de 2026
+// Data: 10 de Abril de 2026 
 
 /*
-Uso de matriz bidimensional (5x5) para armazenar o cenário.
+Uso de matriz bidimensional (10x10) para armazenar o cenário.
 Laços de repetição para imprimir o labirinto a cada rodada.
 Condicionais para validar os movimentos e impedir atravessar paredes.
 Leitura de teclado com scanf para capturar as direções.
@@ -239,6 +239,7 @@ int validarMovimento(int lab[N][N], int x, int y)
     return 1;
 }
 
+// geração do cenário 10x10 definindo paredes, caminhos livres e a saída.
 int main()
 {
     int labirinto[N][N] =
