@@ -10,6 +10,9 @@ Laços de repetição para imprimir o labirinto a cada rodada.
 Condicionais para validar os movimentos e impedir atravessar paredes.
 Leitura de teclado com scanf para capturar as direções.
 Verificação de vitória quando o jogador chega na saída.
+Música e efeitos sonoros
+Imagens ASCII adicionadas
+Bombas/Armadilhas
 
 OBS: A linguagem C padrão ANSI não possui suporte nativo para controle
 de som (frequência/duração). Pesquisei e vi que daria pra usar uma biblioteca do Windows
